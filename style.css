@@ -1,0 +1,347 @@
+/* - - - FONTS - - - */
+.cutive-mono-regular {
+    font-family: "Cutive Mono", monospace;
+    font-weight: 400;
+    font-style: normal; }  
+
+@font-face {
+    font-family: 'Pixelada';
+    src: url(fonts/Minecraftia-Regular.ttf);
+    font-weight: normal;
+}
+
+/* NAVBAR */
+
+body{
+    background-color: #101010;
+}
+  
+.floating-area{
+    background: #101010;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 80px;
+    display: flex;
+}
+.floating-navbar{
+    background: #202020;
+    margin: auto;
+    height: 50px;
+    width: 950px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.nav-ul{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 950px;
+}
+.nav-li{
+    list-style: none;
+    margin-top: 14px;
+}
+
+.nav-a{
+    font-family: Sans-Serif;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#nav-i-1{margin-left: -3ch;}
+#nav-i-2{margin-left: -3ch;}
+#nav-i-3{margin-left: -4ch;}
+#nav-i-4{margin-left: 1ch;}
+#nav-i-5{margin-left: 5ch;}
+#nav-i-6{margin-left: 4ch;}
+#nav-i-7{margin-left: 7ch;}
+
+.nav-selected{
+    position: absolute;
+    color: #eee;
+    font-size: 5px;
+}
+
+#nav-selected-1{margin-left: 19px;}
+#nav-selected-2{margin-left: 16px;}
+#nav-selected-3{margin-left: 44px;}
+#nav-selected-4{margin-left: 44px;}
+#nav-selected-5{margin-left: 19px;}
+#nav-selected-6{margin-left: 36px;}
+#nav-selected-7{margin-left: 30px;}
+
+/* CONTENT */
+h1{
+    color: #ffffff;
+    padding: 35px 50px 35px 50px;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    margin: auto;
+}
+
+.title{
+    margin: 3%;
+    display: flex;
+}
+
+#terminal-body{
+    background-color: #000;
+    width: 95%;
+    padding: 5px 0px 5px 5px;
+    margin: 0px 5px 5px 35px;
+}
+
+.terminal-top{
+    height: 5px;
+    width: 95%;
+    background-color: #303030;
+    border-radius: 15px 15px 0px 0px;
+    padding: 35px 35px 0px 35px;
+    margin: 0px 0px 0px 35px;
+}
+
+.mac{
+    display: grid;
+    grid-template-columns: 10px 10px 10px;
+    margin: -22px 0px -100px 0px;
+    height: 10px;
+    width: 6%;
+}
+
+#close{
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    background-color: #ff0000;
+    border: solid 2px #ff0000;
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
+#minimize{
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    background-color: #ffec43;
+    border: solid 2px #ffec43;
+    margin-left: -15px;
+    margin-right: 10px;
+}
+
+#maximize{
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    background-color: #6bd805;
+    border: solid 2px #6bd805;
+    margin-left: -10px;
+    margin-right: 10px;
+}
+
+#container-terminal{
+    display: grid;
+    grid-template-columns: 17ch 1ch;
+    margin: 2px
+}
+
+.user{
+    font-family: 'Pixelada', monospace;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #16c60c;
+    margin-left: 10px;
+}
+
+#underline{
+    font-family: 'Pixelada', monospace;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #16c60c;
+    margin-left: 35px;
+    animation: piscando 0.4s infinite step-end;
+}
+
+.TitleScroll{
+    visibility: hidden;
+}
+.TerminalScroll{
+    visibility: hidden;
+}
+@keyframes piscando{
+    0%{color:#16c60c;}
+    50%{color: #000;}
+    50%{color: #000;}    
+}
+
+/* DEVELOPMENT ANIMATION */
+
+.content{
+    margin-top: 20px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+
+.development{
+    height: 400px;
+    width: 550px;
+    margin: auto;
+}
+
+.animation{
+    height: 250px;   
+    width: 100%;
+    display: flex;
+}
+
+.fa-gear{
+    color: #303030;
+}
+
+#gear1{
+    font-size: 135px;
+    margin: auto;
+    margin-right: -120px;
+    margin-top: 90px;
+    animation: spinning1 4.5s infinite;
+}
+
+#gear2{
+    font-size: 75px;
+    margin: auto;
+    margin-right: -95px;
+    margin-top: 45px;
+    animation: spinning2 4.5s infinite;
+}
+
+#gear3{
+    font-size: 200px;
+    margin: auto;
+    margin-top: 20px;
+    margin-right: 75px;
+    animation: spinning3 4.5s infinite;
+}
+
+.web-dev{
+    width: 100%;
+    font-family: Sans-Serif;
+    font-size: 32px;
+    letter-spacing: 3px;
+    color: #303030;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+@keyframes spinning1 {
+    0% {transform:rotate(0deg);}
+    100% {transform:rotate(360deg);}
+}
+@keyframes spinning2 {
+    0% {transform:rotate(0deg);}
+    100% {transform:rotate(-720deg);}
+}
+@keyframes spinning3 {
+    0% {transform:rotate(0deg);}
+    100% {transform:rotate(60deg);}
+}
+
+/* SOCIAL MEDIA LINKS */
+
+.socialmedia{
+    background: linear-gradient(0deg, #212121, #101010);
+    height: 300px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+.social-ul .social-li {list-style: none;}
+
+.social-ul .social-li .social-a {
+    position: relative;
+    width:90px;
+    height:90px;
+    display:block;
+    text-align:center;
+    margin: 0px 90px 0px;
+    border-radius: 50%;
+    padding: 11px;
+    box-sizing: border-box;
+    text-decoration:none;
+    box-shadow: 0 10px 20px rgba(0,0,0,1);
+    background: #fff;
+    transition: .3s;
+}
+
+.social-ul .social-li .social-a:hover {
+    box-shadow: 0 1px 3px rgba(0,0,0,1);
+    text-decoration:none;
+}
+
+#social-a-link:hover{
+    box-shadow: 0 6px 15px rgba(0,119,181,0.75);
+}
+
+#social-a-github:hover{
+    box-shadow: 0 6px 15px rgba(121,75,185,0.75);
+}
+
+#social-a-whats:hover{
+    box-shadow: 0 6px 15px rgba(18,140,126,0.75);
+}
+
+.social-ul .social-li .social-a .fab {
+    width: 100%;
+    height: 100%;
+    display:block;
+    background: #fff;
+    border-radius: 50%;
+    line-height: calc(90px - 23px);
+    font-size: 45px;
+    color: #262626;
+    transition: .5s;
+}
+
+.social-ul{
+    display: flex;
+    margin: auto;
+}
+
+.social-ul .social-li:nth-child(1) a:hover .fab {color: #0077b5;}
+
+.social-ul .social-li:nth-child(2) a:hover .fab {color: #794bb9;}
+
+.social-ul .social-li:nth-child(3) a:hover .fab {color: #128c7e;}
+
+#content-example{
+    height: 500px;
+}
+
+/* FOOTER */
+
+.page-footer{
+    padding-top: 100px;
+}
+
+.footer-copy{
+    display: flex;
+}
+
+#copyright{
+    margin: auto;
+}
+
+/* Sticky Footer 
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+} */
