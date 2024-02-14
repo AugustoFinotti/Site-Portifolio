@@ -15,7 +15,9 @@ Se sinta livre para explorar o código :)
 
 ### Para Fazer
 - Conteúdo das páginas
+- Deixar conteúdos das páginas responsivo 
+- Colocar logo no Menu
+- Deixar Menu Responsivo
 - Interatividade do Terminal Interativo
-- Deixar responsivo 
 
 ### Link do site: www.augustofinotti.com.br
