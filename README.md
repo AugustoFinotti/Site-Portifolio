@@ -19,5 +19,6 @@ Se sinta livre para explorar o código :)
 - Colocar logo no Menu
 - Deixar Menu Responsivo
 - Interatividade do Terminal Interativo
+- Switch Dark / Light Mode
 
 ### Link do site: www.augustofinotti.com.br
